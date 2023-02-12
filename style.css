@@ -1,0 +1,265 @@
+*{
+    border: 0px;
+    margin: 0px;
+}
+.first-col{
+    height: 300px;
+    background:rgba(245, 3, 15, 0.637);
+    border-radius: 0px 0px 40px 40px;
+}
+.navbar{
+    color: white;
+    font-size: larger;
+    height: 50px;
+    margin-bottom: 50px;
+    padding-top: 25px;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    gap: 50px;
+}
+.navbar h3{
+    padding-top: 10px;
+}
+.nav{
+    color: red;
+    font-size: small;
+    margin: 10px;
+    background-color: white;
+    position: relative;
+    left: 40%;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+.nav-1{
+    color: white;
+    font-size: small;
+    margin: 10px;
+    background-color: white;
+    position: relative;
+    left: 40%;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 20px;
+    background-color: transparent;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: small;
+    padding-top: 10px;
+}
+.text{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica;
+}
+h2{
+    padding-bottom: 10px;
+}
+h6{
+    padding-bottom: 20px;
+}
+button{
+    color: red;
+    font-size: small;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: Arial,;
+}
+.ln{
+    background: transparent;
+    border: 1px solid whitesmoke;
+    color: white;
+}
+h3{
+text-align: center;
+padding: 50px;
+}
+.second-col{
+    padding-bottom: 150px;
+    padding-left: 150px;
+    padding-right: 70px;
+    line-height: 17px;
+}
+h5{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+img{
+    position: absolute;
+    left: 42em;
+    bottom: -15em;
+}
+.third-col{
+    color: white;
+    height: 290px;
+    background-color: rgba(1, 1, 26, 0.884);
+    border-radius: 0px 50px 0px 50px;
+}
+.pic{
+    position: absolute;
+    left: -35em;
+    top: 62em;
+}
+.tx{
+    color: white;
+    padding-bottom: 150px;
+    padding-left: 150px;
+    padding-right: 70px;
+    position: absolute;
+    left: 30em;
+    bottom: -40em;
+}
+.line{
+    padding-top: 20px;
+    font-size: xx-small;
+    font-family: 'Times New Roman';
+    line-height: 17px;
+}
+.forth{
+    margin-left: 40px;
+}
+.forth-img{
+    height: 400px;
+    position: absolute;
+    top: 75em;
+    left: -9em;
+}
+.forth-tx{
+    position: absolute;
+    left: 40em;
+    bottom: -60em;
+}
+.last{
+    height: 200px;
+    width: 100%;
+    color: white;
+    background-color: rgba(1, 1, 26, 0.884);
+    border-radius: 0px 50px 0px 0px;
+    position: absolute;
+    top: 100em;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+ul{
+    list-style: none;
+}
+.last h3{
+    padding-right: 90px;
+}
+.last h4{
+padding-bottom: 20px;
+}
+button:hover{
+    color: rgba(1, 10, 1, 0.829);
+    background-color: rgb(255, 0, 21);
+    transition: all 1.2s;
+}
+@media (max-width:500px){
+    *{margin: 0px;
+      padding: 0px;
+    }*
+    body{
+        width: 500px;
+        height: 150em;
+    }
+    .last{
+        top: 150em;
+    }
+    .forth-img{
+        height: 300px;
+        position: absolute;
+        top: 131em;
+        left: 2em;
+    }
+    .forth-tx{
+        position: absolute;
+        right: -30em;
+        top: 115em;
+        left: 2em;
+    }
+    .third-col{
+        color: white;
+        height: 290px;
+        width: 438px;
+        background-color: rgba(1, 1, 26, 0.884);
+        border-radius: 0px 50px 0px 50px;
+        position: absolute;
+        top: 96em;
+    }
+    .pic{
+        position: absolute;
+         left: 0em;
+         top: -37em; 
+    }
+    img{
+    height: 350px;
+    position: absolute;
+    left: 2em;
+    bottom: -58em;
+}
+.second-col{
+    padding-bottom: 150px;
+    padding-left: 35px;
+    padding-right: 70px;
+    line-height: 17px;
+    position: absolute;
+    top: 40em;
+}
+    #new{
+        position: absolute;
+        top: 32em;
+    }
+    .first-col{
+        height: 600px;
+        width: 438px;
+        background:rgba(245, 3, 15, 0.637);
+        border-radius: 0px 0px 40px 40px;
+    }
+    .navbar{
+        color: white;
+        font-size: larger;
+        height: 50px;
+        margin-bottom: 50px;
+        padding-top: 25px;
+        padding-left: 70px;
+        padding-right: 70px;
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+    }
+    .text{
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica;
+        padding-top: 19em;
+    }
+    .nav{
+        color: red;
+        font-size: small;
+        margin: 10px;
+        background-color: white;
+        position: relative;
+        left: -3em;
+        border-radius: 20px;
+        padding-left: 15px;
+        padding-right: 20px;
+    }
+    .nav-1{
+        color: white;
+        font-size: small;
+        margin: 10px;
+        background-color: white;
+        position: relative;
+        left: -3em;
+        border-radius: 20px;
+        padding-left: 15px;
+        padding-right: 20px;
+        background-color: transparent;
+    }
+}
